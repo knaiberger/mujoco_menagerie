@@ -1,0 +1,8 @@
+<mujoco model="panda scene">
+    <include euler="0 0 -30" file="mjx_panda.xml"/>
+    <worldbody>
+      <geom name="red_box" type="box" size=".2 .3 .2" rgba="1 0 0 1" pos="0 0 -0.2"/>
+      <camera name="closeup" pos="0 -3 0" xyaxes="0 0 -2 1 0 0"/>
+    </worldbody>
+
+</mujoco>
